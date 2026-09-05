@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-udi-decoder"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for FDA & EU MDR Medical Device UDI Decoder"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["fda-udi","eu-mdr","medical-device","gs1-datamatrix","hibcc","iccbba","gudid","eudamed","udi-validation"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/udi-decoder"
+Repository = "https://github.com/stanzaapi/udi-decoder-python"
